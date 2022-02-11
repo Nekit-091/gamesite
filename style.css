@@ -1,0 +1,60 @@
+.game{/*обиратились к дивам с играми*/
+    border: black 3px dashed;/*делает рамочку (указываем цвет, толщину и тип границы)*/
+    display: inline-block;/*сделали, чтобы игры шли в одну линию*/
+    width: 18%;/*указали ширину игр*/
+    color: rgb(165, 42, 42);/*цвет текста у игр*/
+    background-color: black;/*цвет фона у игр*/
+    opacity: 0.9;/*сделали блок с играми прозрачным немножко*/
+    margin: 5px;/*добавили внешние отступы*/
+    padding: 5px;/*добавили воздух*/
+    transition: 1s;/*добавили плавность анимации*/
+}
+.game:hover{/*при наведении на игру*/
+    opacity: 1;/*прозрачность*/
+    border: red 3px dashed;/*толщина и цвет линий*/
+}
+img{/*картинка*/
+    width: 100%;/*ширина картины*/
+}
+body{
+    /*background-image: url(img/FON.jpg);/*фоновое изображение*/
+    /*background-repeat: no-repeat;/*повторение фона*/
+    /*background-size: cover;/*размер фоновой картины*/
+    text-align: center;/*сделали выравнивание*/
+    background-color: black;
+}
+a{
+  text-decoration: none;/*сделали оформление текста*/
+  font-size: 20px; 
+  color: black;
+  background-color: purple; 
+  padding: 5px;
+  transition: 1s;
+}
+a:hover{
+    background-color: darkorchid;
+}
+h2{
+    color: rgba(195, 133, 226, 0.74);
+    margin-top: 60px;
+    background-color: rgba(0, 0, 255, 0.137);
+    padding: 20px;
+}
+
+.menu a{
+    display: inline-block;
+    margin:0 20px;
+    padding: 10px;
+    width: 140px;
+
+}
+.menu {
+    background-color: rgba(164, 10, 236, 0.377);
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+    top: 0;
+}
+html{
+    scroll-behavior: smooth;/*сделали плавныю прокрутку странрицы сайта*/
+}
